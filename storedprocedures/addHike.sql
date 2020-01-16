@@ -1,0 +1,1 @@
+Create procedure spAddHike (@HikeName VARCHAR(20), @Distance VARCHAR(20), @HikeLocation VARCHAR(20),@ElevationGain VARCHAR(20))  as   Begin  Insert into tblHike (HikeName,Distance,HikeLocation,ElevationGain ) Values (@HikeName,@Distance,@HikeLocation, @ElevationGain) End

@@ -1,0 +1,1 @@
+create procedure spUpdateHike(@HikeId INTEGER , @HikeName VARCHAR(20), @Distance VARCHAR(20), @HikeLocation VARCHAR(20), @ElevationGain VARCHAR(20)) as begin  Update tblHike set HikeName=@HikeName, Distance=@Distance, HikeLocation=@HikeLocation, ElevationGain=@ElevationGain where HikeId=@HikeId End

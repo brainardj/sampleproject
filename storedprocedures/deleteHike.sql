@@ -1,0 +1,1 @@
+create procedure spDeleteHike (@HikeId int) as begin Delete from tblHike where HikeId=@HikeId  End
