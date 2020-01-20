@@ -1,3 +1,0 @@
-Server=localhost;Database=master;Trusted_Connection=True;
-
-Create table tblHikes(            HikeId int IDENTITY(1,1) NOT NULL,            Name varchar(20) NOT NULL,            Distance varchar(20) NOT NULL,            Location varchar(20) NOT NULL,            ElevationGain varchar(20) NOT NULL        )

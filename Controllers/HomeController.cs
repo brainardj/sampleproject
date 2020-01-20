@@ -23,11 +23,6 @@ namespace sampleproject.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult Hikes()
         {
             return View();
